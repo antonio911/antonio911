@@ -173,67 +173,6 @@ void UserProfile::SaveSetting(UserProfile::Setting* setting) {
 }  // namespace xam
 }  // namespace kernel
 }  // namespace xe
-Xenia - Xbox 360 Emulator
-Xenia is an experimental emulator for the Xbox 360. For more information, see the main xenia website.
-
-Interested in supporting the core contributors? Visit Xenia Project on Patreon.
-
-Come chat with us about emulator-related topics on Discord. For developer chat join #dev but stay on topic. Lurking is not only fine, but encouraged! Please check the frequently asked questions page before asking questions. We've got jobs/lives/etc, so don't expect instant answers.
-
-Discussing illegal activities will get you banned. No warnings.
-
-Status
-Buildbot	Status
-Windows	Build status
-Linux	Build status
-Quite a few real games run. Quite a few don't. See the Game compatibility list for currently tracked games, and feel free to contribute your own updates, screenshots, and information there following the existing conventions.
-
-Disclaimer
-The goal of this project is to experiment, research, and educate on the topic of emulation of modern devices and operating systems. It is not for enabling illegal activity. All information is obtained via reverse engineering of legally purchased devices and games and information made public on the internet (you'd be surprised what's indexed on Google...).
-
-Quickstart
-With Windows 8+, Python 3.4+, and Visual Studio 2017 or 2019 and the Windows SDKs installed:
-
-> git clone https://github.com/xenia-project/xenia.git
-> cd xenia
-> xb setup
-
-# Pull latest changes, rebase, and update submodules and premake:
-> xb pull
-
-# Build on command line:
-> xb build
-
-# Run premake and open Visual Studio (run the 'xenia-app' project):
-> xb devenv
-
-# Run premake to update the sln/vcproj's:
-> xb premake
-
-# Format code to the style guide:
-> xb format
-When fetching updates use xb pull to automatically fetch everything and run premake for project files/etc.
-
-Building
-See building.md for setup and information about the xb script. When writing code, check the style guide and be sure to run clang-format!
-
-Contributors Wanted!
-Have some spare time, know advanced C++, and want to write an emulator? Contribute! There's a ton of work that needs to be done, a lot of which is wide open greenfield fun.
-
-For general rules and guidelines please see CONTRIBUTING.md.
-
-Fixes and optimizations are always welcome (please!), but in addition to that there are some major work areas still untouched:
-
-Help work through missing functionality/bugs in games
-Add input drivers for PS4 controllers (or anything else)
-Skilled with Linux? A strong contributor is needed to help with porting
-See more projects good for contributors. It's a good idea to ask on Discord/check the issues before beginning work on something.
-
-FAQ
-For more see the main frequently asked questions page.
-
-Can I get an exe?
-Check Appveyor's artifacts to see what's there.
 
 
 
